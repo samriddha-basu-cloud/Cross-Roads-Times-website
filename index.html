@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>CrossRoad Times - tag line goes here</title>
+  <title>CrossRoad Times</title>
 
   <!-- 
     - favicon
@@ -15,7 +15,8 @@
   <!-- 
     - custom css link
   -->
-  <link rel="stylesheet" href="./assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+  
 
   <!-- 
     - google font link
@@ -25,6 +26,7 @@
   <link
     href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@500;700&family=Roboto:wght@400;500;700&display=swap"
     rel="stylesheet">
+    <script src="script.js"></script>
 </head>
 
 <body id="top">
@@ -125,7 +127,7 @@
       <section class="section blog" id="blog" aria-label="blog">
         <div class="container">
 
-          <h2 class="h2 section-title">Latest Articles Updated Daily</h2>
+          <h2 class="h2 section-title">Trending Today</h2>
 
           <p class="section-text">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
@@ -144,21 +146,19 @@
                 </figure>
 
                 <div class="card-content">
-
-                  <time class="time" datetime="2022-06-16">April 27, 2023</time>
-
-                  <h3 class="h3">
-                    <a href="#" class="card-title">How to Become a Successful Entry Level UX Designer</a>
-                  </h3>
+                  <div id="news-container" class="news-container"></div>
 
                 </div>
 
               </div>
             </li>
 
-            <li>
-              <div class="blog-card grid">
+        
 
+            <!-- <li>
+              <div class="blog-card grid">
+                <figure class="card-banner img-holder" style="--width: 860; --height: 646;"></figure>
+                <div class="card-content"></div> 
                 <figure class="card-banner img-holder" style="--width: 860; --height: 646;">
                   <img src="./assets/images/blog-2.jpg" width="860" height="646" loading="lazy"
                     alt="2022 Local SEO Success: The Year of Everywhere" class="img-cover">
@@ -238,7 +238,7 @@
                 </div>
 
               </div>
-            </li>
+            </li> -->
 
           </ul>
 
